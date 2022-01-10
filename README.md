@@ -1,7 +1,8 @@
 ## CCC Model
 This is a simple CCC (co-evolving combinatorial critical) model to demonstrate properties of complex adaptive systems, such as punctuated equilibrium and power-law scaling.
 
-Each agent has a binary state. The interaction tensor specifies production and creation rules (i,j) -> k which are applied randomly.
+Each agent has a binary state. The interaction tensor specifies creation and destruction rules (i,j) -> k which are applied randomly.   
+If the creative interactions are less than (resp. greater than) the destructive, the agent k lives (resp. dies).   
 For more details see [1] ch5 
 
 ![simulation picture](sim.png)
