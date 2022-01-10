@@ -10,7 +10,7 @@ def update(params, substep, state_history, previous_state, policy_input):
     I_destr = params["destructive"]
     I = I_prod - I_destr
         
-    # spontaneous production/creation
+    # spontaneous production/destruction
     prob_flip = params["spontaneous"]
     flip = np.random.binomial(size=n, p=prob_flip, n=1)
     
